@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote for a Candidate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Vote for Your Candidate</h1>
+    <form id="voteForm">
+        <label for="constituency">Constituency Name:</label>
+        <input type="text" id="constituency" name="constituency" required>
+
+        <label for="party">Party Name:</label>
+        <input type="text" id="party" name="party" required>
+
+        <button type="submit">Vote</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
